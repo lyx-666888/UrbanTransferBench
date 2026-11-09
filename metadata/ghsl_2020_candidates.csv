@@ -1,0 +1,16 @@
+﻿city_id,city_name,country,rank,ghsl_id,contains_anchor,distance_km,area_km2
+BJ,Beijing,CHN,1,8909,True,0.0,2182.41
+BJ,Beijing,CHN,2,8943,False,20.46,17.98
+BJ,Beijing,CHN,3,8936,False,24.85,128.84
+BJ,Beijing,CHN,4,9004,False,28.12,161.81
+BJ,Beijing,CHN,5,8906,False,31.49,53.94
+NYC,NewYork,USA,1,924,True,0.0,3063.9
+NYC,NewYork,USA,2,945,False,34.94,29.97
+NYC,NewYork,USA,3,943,False,37.59,22.98
+NYC,NewYork,USA,4,932,False,43.84,72.92
+NYC,NewYork,USA,5,948,False,50.54,53.95
+LON,London,GBR,1,1910,True,0.0,1743.62
+LON,London,GBR,2,1937,False,19.68,20.03
+LON,London,GBR,3,1929,False,22.42,27.04
+LON,London,GBR,4,1935,False,25.95,45.06
+LON,London,GBR,5,1947,False,26.42,25.04

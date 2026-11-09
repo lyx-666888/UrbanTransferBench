@@ -1,0 +1,10 @@
+city_id,city_name,country,longitude,latitude
+BJ,Beijing,CHN,116.4074,39.9042
+CD,Chengdu,CHN,104.0665,30.5723
+SH,Shanghai,CHN,121.4737,31.2304
+SZ,Shenzhen,CHN,114.0579,22.5431
+NYC,NewYork,USA,-74.0060,40.7128
+CHI,Chicago,USA,-87.6298,41.8781
+SF,SanFrancisco,USA,-122.4194,37.7749
+LON,London,GBR,-0.1276,51.5072
+MAN,Manchester,GBR,-2.2426,53.4808
