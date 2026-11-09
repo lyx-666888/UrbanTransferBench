@@ -1,0 +1,37 @@
+{
+  "city_id": "SF",
+  "input_file": "/Users/li/城市区域/boundaries/raw_admin/SF_boundary.gpkg",
+  "input_source_crs": "EPSG:4269",
+  "input_polygon_feature_count": 1,
+  "grid_crs": "EPSG:6933",
+  "cell_size_projected_m": 1000,
+  "fixed_global_origin_xy_m": [
+    0,
+    0
+  ],
+  "cols_global_index_half_open": [
+    -11885,
+    -11798
+  ],
+  "rows_global_index_half_open": [
+    4471,
+    4501
+  ],
+  "all_candidate_cells": 2610,
+  "full_cells": 694,
+  "clipped_cells": 694,
+  "saved_files_reopened_and_validated": true,
+  "very_small_border_cells_ratio_below_0_01": 8,
+  "boundary_area_m2": 600617575.8649163,
+  "sum_clipped_area_m2": 600617575.8648391,
+  "relative_area_conservation_error": 1.2861365156966344e-13,
+  "unique_region_ids_expected": 694,
+  "unique_global_grid_ids_expected": 694,
+  "cells_are_unique_by_row_col_by_construction": true,
+  "outputs": {
+    "all": "/Users/li/城市区域/grid_1km/all/SF_grid_1km_all.gpkg",
+    "full": "/Users/li/城市区域/grid_1km/full/SF_grid_1km_full.gpkg",
+    "clipped": "/Users/li/城市区域/grid_1km/clipped/SF_grid_1km_clipped.gpkg"
+  },
+  "warning": ""
+}

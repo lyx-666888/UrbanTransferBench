@@ -1,0 +1,37 @@
+{
+  "city_id": "LON",
+  "input_file": "/Users/li/城市区域/boundaries/raw_admin/LON_boundary.gpkg",
+  "input_source_crs": "EPSG:27700",
+  "input_polygon_feature_count": 1,
+  "grid_crs": "EPSG:6933",
+  "cell_size_projected_m": 1000,
+  "fixed_global_origin_xy_m": [
+    0,
+    0
+  ],
+  "cols_global_index_half_open": [
+    -50,
+    33
+  ],
+  "rows_global_index_half_open": [
+    5718,
+    5752
+  ],
+  "all_candidate_cells": 2822,
+  "full_cells": 1743,
+  "clipped_cells": 1743,
+  "saved_files_reopened_and_validated": true,
+  "very_small_border_cells_ratio_below_0_01": 14,
+  "boundary_area_m2": 1595232217.7533998,
+  "sum_clipped_area_m2": 1595232217.753202,
+  "relative_area_conservation_error": 1.2404928790429397e-13,
+  "unique_region_ids_expected": 1743,
+  "unique_global_grid_ids_expected": 1743,
+  "cells_are_unique_by_row_col_by_construction": true,
+  "outputs": {
+    "all": "/Users/li/城市区域/grid_1km/all/LON_grid_1km_all.gpkg",
+    "full": "/Users/li/城市区域/grid_1km/full/LON_grid_1km_full.gpkg",
+    "clipped": "/Users/li/城市区域/grid_1km/clipped/LON_grid_1km_clipped.gpkg"
+  },
+  "warning": ""
+}
