@@ -1,10 +1,4 @@
-# UrbanTransferBench：九城市行政边界与 1 km 空间网格
-
-> **UrbanTransferBench** 是面向跨城市城市区域表征（cross-city urban region representation）研究的数据集与评测项目。本仓库记录九座城市行政边界的选择、预处理及统一网格构建规范，以支持后续多模态特征提取、城市间迁移学习与可复现实验。
->
-> **当前说明范围**：行政边界及空间网格基础设施；不代表 POI、道路、建筑、遥感、移动性数据或下游标签已全部发布。
-
-**Languages:** [English](README.md) | **简体中文**
+# 九城市行政边界与 1 km 空间网格
 
 ## 1. 数据概览
 
@@ -22,7 +16,7 @@
 | 英国 | 伦敦 London | `LON` | Greater London（大伦敦） | Greater London Authority（GLA） |
 | 英国 | 曼彻斯特 Manchester | `MAN` | City of Manchester（曼彻斯特市） | Office for National Statistics（ONS）2026 年 5 月 LAD |
 
-**重要的范围定义**：`NYC` 包含五个 borough；`LON` 为 Greater London，而非面积很小的 City of London；`MAN` 为 City of Manchester，**不是** Greater Manchester。由于各国行政体系不同，以上边界不表示完全等价的行政层级。
+**范围定义**：`NYC` 包含五个 borough；`LON` 为 Greater London，而非面积很小的 City of London；`MAN` 为 City of Manchester，**不是** Greater Manchester。由于各国行政体系不同，以上边界不表示完全等价的行政层级。
 
 ## 2. 原始数据来源
 
@@ -76,8 +70,7 @@
 
 ```text
 UrbanTransferBench/
-├── README.md                         # English README
-├── README_zh.md                      # 本说明
+├── README.md                      # 本说明
 ├── scripts/
 │   └── urbantransferbench_grid_1km_qgis.py
 ├── boundaries/
