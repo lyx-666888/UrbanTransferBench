@@ -97,7 +97,7 @@ UrbanTransferBench/
         └── cities_grid_summary.csv
 ```
 
-`{CITY}` 代表 `BJ`、`CD`、`SH`、`SZ`、`NYC`、`CHI`、`SF`、`LON`、`MAN` 之一。目录展示的是**推荐组织结构及脚本输出约定**；请以实际提交的文件为准，不要将尚未上传的文件描述为已公开发布。
+`{CITY}` 代表 `BJ`、`CD`、`SH`、`SZ`、`NYC`、`CHI`、`SF`、`LON`、`MAN` 之一。
 
 ## 6. 字段字典
 
@@ -122,7 +122,7 @@ UrbanTransferBench/
 
 ## 7. 质量控制与复现
 
-各城市建议至少检查以下项目，并在 `grid_1km/metadata/{CITY}_grid_qa.json` 中保存结果：
+`grid_1km/metadata/{CITY}_grid_qa.json` 中保存以下结果：
 
 - `full` 中 `(grid_row, grid_col)`、`region_id` 均唯一；`full` 和 `clipped` 的 `region_id` 集合相等。
 - 每个 `full` 要素在投影坐标中的面积约为 `1,000,000 m²`。
@@ -137,7 +137,7 @@ relative_area_conservation_error =
     abs(sum_clipped_area_m2 - boundary_area_m2) / boundary_area_m2
 ```
 
-实际城市网格数量与误差数值应读取 `cities_grid_summary.csv` 及城市 QA JSON；**本 README 不编造未核验的城市网格数量**。
+实际城市网格数量与误差数值应读取 `cities_grid_summary.csv` 及城市 QA JSON。
 
 ## 8. 下游数据对齐建议
 
