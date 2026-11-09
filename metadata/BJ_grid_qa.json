@@ -1,0 +1,37 @@
+{
+  "city_id": "BJ",
+  "input_file": "/Users/li/城市区域/boundaries/raw_admin/BJ_boundary.gpkg",
+  "input_source_crs": "EPSG:4326",
+  "input_polygon_feature_count": 1,
+  "grid_crs": "EPSG:6933",
+  "cell_size_projected_m": 1000,
+  "fixed_global_origin_xy_m": [
+    0,
+    0
+  ],
+  "cols_global_index_half_open": [
+    11135,
+    11338
+  ],
+  "rows_global_index_half_open": [
+    4652,
+    4811
+  ],
+  "all_candidate_cells": 32277,
+  "full_cells": 16920,
+  "clipped_cells": 16920,
+  "saved_files_reopened_and_validated": true,
+  "very_small_border_cells_ratio_below_0_01": 61,
+  "boundary_area_m2": 16405772805.23778,
+  "sum_clipped_area_m2": 16405772805.23756,
+  "relative_area_conservation_error": 1.3369994536521218e-14,
+  "unique_region_ids_expected": 16920,
+  "unique_global_grid_ids_expected": 16920,
+  "cells_are_unique_by_row_col_by_construction": true,
+  "outputs": {
+    "all": "/Users/li/城市区域/grid_1km/all/BJ_grid_1km_all.gpkg",
+    "full": "/Users/li/城市区域/grid_1km/full/BJ_grid_1km_full.gpkg",
+    "clipped": "/Users/li/城市区域/grid_1km/clipped/BJ_grid_1km_clipped.gpkg"
+  },
+  "warning": ""
+}

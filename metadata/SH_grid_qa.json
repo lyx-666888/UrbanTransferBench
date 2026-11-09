@@ -1,0 +1,37 @@
+{
+  "city_id": "SH",
+  "input_file": "/Users/li/城市区域/boundaries/raw_admin/SH_boundary.gpkg",
+  "input_source_crs": "EPSG:4326",
+  "input_polygon_feature_count": 1,
+  "grid_crs": "EPSG:6933",
+  "cell_size_projected_m": 1000,
+  "fixed_global_origin_xy_m": [
+    0,
+    0
+  ],
+  "cols_global_index_half_open": [
+    11661,
+    11852
+  ],
+  "rows_global_index_half_open": [
+    3720,
+    3865
+  ],
+  "all_candidate_cells": 27695,
+  "full_cells": 7601,
+  "clipped_cells": 7601,
+  "saved_files_reopened_and_validated": true,
+  "very_small_border_cells_ratio_below_0_01": 91,
+  "boundary_area_m2": 6882975927.135131,
+  "sum_clipped_area_m2": 6882975927.134449,
+  "relative_area_conservation_error": 9.906719759722933e-14,
+  "unique_region_ids_expected": 7601,
+  "unique_global_grid_ids_expected": 7601,
+  "cells_are_unique_by_row_col_by_construction": true,
+  "outputs": {
+    "all": "/Users/li/城市区域/grid_1km/all/SH_grid_1km_all.gpkg",
+    "full": "/Users/li/城市区域/grid_1km/full/SH_grid_1km_full.gpkg",
+    "clipped": "/Users/li/城市区域/grid_1km/clipped/SH_grid_1km_clipped.gpkg"
+  },
+  "warning": ""
+}
